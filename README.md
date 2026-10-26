@@ -65,79 +65,9 @@ Everyday grocery shopping in large cities costs time, and prices are often incon
 
 ---
 
-## Getting Started
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) 18.18 or later
-- npm (or yarn / pnpm / bun)
-
-### Run locally
-
-```bash
-# Clone the repository
-git clone https://github.com/<your-username>/leek_website.git
-
-# Enter the project folder
-cd leek_website
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser. The page hot-reloads as you edit files in `app/` and `components/`.
-
-### Scripts
-
-| Command | Description |
-|---|---|
-| `npm run dev` | Start the development server |
-| `npm run build` | Create an optimized production build |
-| `npm run start` | Run the production build |
-| `npm run lint` | Lint the code with ESLint |
-
-### Deploy
-
-The easiest way to deploy is **[Vercel](https://vercel.com/)**: import the GitHub repo and it builds automatically. Netlify also works.
-
----
-
-## 📲 Download the App
-
-| Platform | Status |
-|---|---|
-| 🤖 Android | Available via APK download |
-| 🍎 iPhone (iOS) | Coming soon |
-
-Scan the QR code on the landing page to download the app directly.
-
----
-
-## 📞 Contact
-
-- 📧 **Email:** hello@leek.ma
-- 📍 **Location:** Casablanca, Morocco
-- 📷 Instagram · 📘 Facebook · 🎵 TikTok
-
----
-
-## 🗺️ Roadmap
-
-- [x] Landing page design
-- [x] Android APK release
-- [ ] iOS app release
-- [ ] FAQ and Contact pages
-- [ ] Multi-language support (Arabic / French / English)
-- [ ] Expansion to other Moroccan cities
-
----
-
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome. Feel free to open an issue or submit a pull request.
+Contributions, issues, and feature requests are welcome. Feel free to open an issue or submit a pull request
 
 1. Fork the project
 2. Create your branch (`git checkout -b feature/amazing-feature`)
@@ -149,8 +79,4 @@ Contributions, issues, and feature requests are welcome. Feel free to open an is
 
 ## 📄 License
 
-© 2025 LEEK. All rights reserved.
-
----
-
-<p align="center">Made with 💚 in Casablanca</p>
+© LEEK. Walid Hattaoui.
