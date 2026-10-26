@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fafafa;
+  --foreground: #0f172a;
+  --leek-950: #064e3b;
+  --leek-800: #065f46;
+  --leek-600: #047857;
+  --leek-50: #ecfdf5;
+  --leek-accent: #84cc16;
+  --leek-accent-bright: #bef264;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-leek-950: var(--leek-950);
+  --color-leek-800: var(--leek-800);
+  --color-leek-600: var(--leek-600);
+  --color-leek-50: var(--leek-50);
+  --color-leek-accent: var(--leek-accent);
+  --color-leek-accent-bright: var(--leek-accent-bright);
+  --font-sans: var(--font-lexend), ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes float-slow {
+  0%,
+  100% {
+    transform: translateY(0) rotate(var(--rotate, 0deg));
+  }
+  50% {
+    transform: translateY(-12px) rotate(var(--rotate, 0deg));
+  }
+}
+
+@keyframes float-delayed {
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-8px) scale(1.02);
+  }
+}
+
+@keyframes shimmer-bg {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-float-slow {
+  animation: float-slow 6s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+  animation: float-delayed 5s ease-in-out infinite 0.5s;
+}
+
+.animate-shimmer-bg {
+  background-size: 200% 200%;
+  animation: shimmer-bg 14s ease infinite;
+}
